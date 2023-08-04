@@ -1,0 +1,47 @@
+.drowpro
+{
+  background-color:red!important;
+}
+@media only screen and (min-width: 400px) {
+  .responsive{
+      padding-left:10px!important;
+  }
+  /* .table
+  {
+    width: 94%!important;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive{
+      padding-left: 50px!important;
+  }
+  .table
+  {
+    width: 94%!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .responsive{
+    padding-left: 100px!important;
+}
+.table
+{
+  width: 90%!important;
+}
+}
+@media only screen and (min-width: 768px) {
+  .responsive{
+    padding-left: 250px!important;
+}
+.table
+{
+  width: 75%!important;
+}
+
+}
+.detail_area
+{
+  border: 1px solid gray;
+  border-radius: 10px;
+}
